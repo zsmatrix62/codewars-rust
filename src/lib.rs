@@ -1,4 +1,7 @@
-mod practices;
+mod duplicate_encoder;
+mod dubstep;
+mod enough_is_enough;
+mod fold_an_array;
 
 #[cfg(test)]
 mod tests {

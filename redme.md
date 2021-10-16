@@ -1,0 +1,6 @@
+# 2020/10/16
+
+- [dubstep](./src/dubstep.rs)
+- [duplicate_encoders](./src/duplicate_encoder.rs)
+- [enough_is_enough](./src/enough_is_enough.rs)
+- [fold_an_array](./src/fold_an_array.rs)
