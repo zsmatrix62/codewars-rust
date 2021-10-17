@@ -4,3 +4,4 @@
 - [duplicate_encoders](./src/duplicate_encoder.rs)
 - [enough_is_enough](./src/enough_is_enough.rs)
 - [fold_an_array](./src/fold_an_array.rs)
+- [build_a_pile_of_cubes](./src/build_a_pile_of_cubes.rs)
