@@ -7,3 +7,6 @@
 # 2020/10/17
 - [fold_an_array](./src/fold_an_array.rs)
 - [build_a_pile_of_cubes](./src/build_a_pile_of_cubes.rs)
+
+# 2020/10/18
+- [k_primes](./src/k_primes.rs)
