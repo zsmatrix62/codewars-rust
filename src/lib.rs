@@ -1,12 +1,14 @@
-mod duplicate_encoder;
+mod build_a_pile_of_cubes;
+mod corner_circle;
 mod dubstep;
+mod duplicate_encoder;
 mod enough_is_enough;
 mod fold_an_array;
-mod build_a_pile_of_cubes;
-mod k_primes;
 mod going_to_zero_or_to_infinity;
+mod k_primes;
 mod scheduling_shortest_job_first_or_sjf;
 
+#[allow(non_snake_case)]
 #[cfg(test)]
 mod tests {
     #[test]

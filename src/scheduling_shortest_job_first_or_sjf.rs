@@ -15,5 +15,5 @@ fn sjf(jobs: &[usize], index: usize) -> usize {
 #[test]
 fn returns_expected() {
     assert_eq!(sjf(&[100], 0), 100);
-    assert_eq!(sjf(&[3,10,20,1,2], 0), 6);
+    assert_eq!(sjf(&[3, 10, 20, 1, 2], 0), 6);
 }

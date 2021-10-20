@@ -1,6 +1,3 @@
-use std::borrow::BorrowMut;
-use std::iter::Zip;
-
 /// https://www.codewars.com/kata/57ea70aa5500adfe8a000110/train/rust
 
 fn fold_array(arr: &[i32], runs: usize) -> Vec<i32> {
