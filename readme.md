@@ -1,3 +1,5 @@
+![](https://www.codewars.com/users/zs.matrix62/badges/large)
+
 - [dubstep](./src/dubstep.rs)
 - [duplicate_encoders](./src/duplicate_encoder.rs)
 - [enough_is_enough](./src/enough_is_enough.rs)
