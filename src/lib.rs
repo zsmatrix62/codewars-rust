@@ -6,6 +6,8 @@ mod enough_is_enough;
 mod fold_an_array;
 mod going_to_zero_or_to_infinity;
 mod k_primes;
+mod message_validator;
+mod prime_reduction;
 mod scheduling_shortest_job_first_or_sjf;
 
 #[allow(non_snake_case)]
