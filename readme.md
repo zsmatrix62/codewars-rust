@@ -10,3 +10,4 @@
 - [scheduling_shortest_job_first_or_sjf](./src/scheduling_shortest_job_first_or_sjf.rs)
 - [corner_circle](./src/corner_circle.rs)
 - [prime_reduction](./src/prime_reduction.rs)
+- [moves_in_squared_strings_iv](./src/moves_in_squared_strings_iv.rs)
