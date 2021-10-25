@@ -10,6 +10,7 @@ mod message_validator;
 mod prime_reduction;
 mod scheduling_shortest_job_first_or_sjf;
 mod moves_in_squared_strings_iv;
+mod most_frequent_weekdays;
 
 #[allow(non_snake_case)]
 #[cfg(test)]
