@@ -12,3 +12,4 @@
 - [prime_reduction](./src/prime_reduction.rs)
 - [moves_in_squared_strings_iv](./src/moves_in_squared_strings_iv.rs)
 - [most_frequent_weekdays](./src/most_frequent_weekdays.rs)
+- [disease_spread](./src/disease_spread.rs) #todo
