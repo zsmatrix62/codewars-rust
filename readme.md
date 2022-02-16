@@ -13,3 +13,4 @@
 - [moves_in_squared_strings_iv](./src/moves_in_squared_strings_iv.rs)
 - [most_frequent_weekdays](./src/most_frequent_weekdays.rs)
 - [disease_spread](./src/disease_spread.rs) #todo
+- [nth_order_summation](./src/nth_order_summation.rs) #todo
