@@ -2,10 +2,12 @@
 
 fn find_nb(n: u64) -> i32 {
     let mut sum = 0_u64;
-    let l = (0u64..).take_while(|&x| {
-        sum += x.pow(3);
-        sum < n
-    }).count() as i32;
+    let l = (0u64..)
+        .take_while(|&x| {
+            sum += x.pow(3);
+            sum < n
+        })
+        .count() as i32;
     if sum == n {
         l
     } else {

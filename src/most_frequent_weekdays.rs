@@ -1,7 +1,9 @@
 //！ https://www.codewars.com/kata/56eb16655250549e4b0013f4
 
-use std::cmp::max;
-use std::collections::HashMap;
+use std::{
+    cmp::max,
+    collections::HashMap,
+};
 
 use chrono::*;
 
@@ -11,20 +13,16 @@ fn most_frequent_days_(year: i32) -> Vec<String> {
 
     let mut res_map: HashMap<u32, i32> = HashMap::new();
     while cur_dt != target_dt {
-        let mut entry = res_map.entry(
-            cur_dt.weekday().num_days_from_monday()
-        ).or_insert(0);
+        let mut entry = res_map.entry(cur_dt.weekday().num_days_from_monday()).or_insert(0);
         *entry += 1;
         cur_dt = cur_dt + Duration::days(1);
-    };
-    let max = res_map.iter().map(|(_, count)| {
-        count
-    }).max().unwrap();
+    }
+    let max = res_map.iter().map(|(_, count)| count).max().unwrap();
 
     let mut res: Vec<u32> = res_map
         .iter()
-        .filter(|&(_, count)| { count == max })
-        .map(|(&day, count)| { day })
+        .filter(|&(_, count)| count == max)
+        .map(|(&day, count)| day)
         .collect();
     res.sort();
 
@@ -37,13 +35,19 @@ fn most_frequent_days_(year: i32) -> Vec<String> {
         (5, "Saturday".into()),
         (6, "Sunday".into()),
     ]);
-    res.iter().map(|d| {
-        wk.get(d).unwrap().into()
-    }).collect()
+    res.iter().map(|d| wk.get(d).unwrap().into()).collect()
 }
 
 // best practice
-const WEEKDAY_STR: [&str; 7] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const WEEKDAY_STR: [&str; 7] = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+];
 
 fn most_frequent_days(year: i32) -> Vec<String> {
     let day1 = Utc.ymd(year, 1, 1).weekday().num_days_from_monday();
@@ -79,4 +83,3 @@ mod tests {
         assert_eq!(most_frequent_days(1984), ["Monday", "Sunday"]);
     }
 }
-
