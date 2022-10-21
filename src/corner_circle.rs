@@ -1,8 +1,8 @@
 //! https://www.codewars.com/kata/5898761a9c700939ee000011/train/rust
 
 fn corner_circle(r: f64) -> f64 {
-    let R = (2f64).sqrt() - 1f64;
-    (r * R * R * 100f64).round() / 100f64
+    let r = (2f64).sqrt() - 1f64;
+    (r * r * r * 100f64).round() / 100f64
 }
 
 #[cfg(test)]
